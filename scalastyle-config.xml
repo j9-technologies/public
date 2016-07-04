@@ -120,6 +120,11 @@
   <parameters>
    <parameter name="allowed">1</parameter>
    <parameter name="ignoreRegex">^""$</parameter>
+   <parameter name="ignoreRegex">^"foo"$</parameter>
+   <parameter name="ignoreRegex">^"bar"$</parameter>
+   <parameter name="ignoreRegex">^"baz"$</parameter>
+   <parameter name="ignoreRegex">^"foobar"$</parameter>
+   <parameter name="ignoreRegex">^"foobaz"$</parameter>
   </parameters>
  </check>
  <check enabled="true"  level="error"   class="org.scalastyle.scalariform.NoCloneChecker"/>
@@ -155,7 +160,7 @@
    <parameter name="maxParameters"><![CDATA[8]]></parameter>
   </parameters>
  </check>
- <check enabled="true"  level="warning" class="org.scalastyle.scalariform.PatternMatchAlignChecker"/>
+ <check enabled="false" level="warning" class="org.scalastyle.scalariform.PatternMatchAlignChecker"/>
  <check enabled="true"  level="error"   class="org.scalastyle.scalariform.ProcedureDeclarationChecker"/>
  <check enabled="true"  level="error"   class="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker"/>
  <check enabled="true"  level="error"   class="org.scalastyle.scalariform.RedundantIfChecker"/>
