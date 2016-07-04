@@ -118,12 +118,7 @@
  <check enabled="true"  level="error"   class="org.scalastyle.scalariform.MultipleStringLiteralsChecker">
   <parameters>
    <parameter name="allowed">1</parameter>
-   <parameter name="ignoreRegex">^""$</parameter>
-   <parameter name="ignoreRegex">^"foo"$</parameter>
-   <parameter name="ignoreRegex">^"bar"$</parameter>
-   <parameter name="ignoreRegex">^"baz"$</parameter>
-   <parameter name="ignoreRegex">^"foobar"$</parameter>
-   <parameter name="ignoreRegex">^"foobaz"$</parameter>
+   <parameter name="ignoreRegex">^(""|"foo(ba[zr])?"|"bar"|"baz")$</parameter>
   </parameters>
  </check>
  <check enabled="true"  level="error"   class="org.scalastyle.scalariform.NoCloneChecker"/>
