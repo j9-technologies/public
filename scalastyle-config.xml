@@ -70,9 +70,9 @@
   </parameters>
  </check>
  <check enabled="true"  level="error"   class="org.scalastyle.scalariform.EqualsHashCodeChecker"/>
- <check enabled="true"  level="warning" class="org.scalastyle.scalariform.FieldNamesChecker">
+ <check enabled="true"  level="error"   class="org.scalastyle.scalariform.FieldNamesChecker">
   <parameters>
-   <parameter name="regex">^[a-z][A-Za-z0-9_]{1,64}$</parameter>
+   <parameter name="regex">^[a-z_][A-Za-z0-9_]{0,64}$</parameter>
   </parameters>
  </check>
  <check enabled="true"  level="warning" class="org.scalastyle.scalariform.ForBraceChecker"/>
@@ -112,8 +112,7 @@
  </check>
  <check enabled="true"  level="error"   class="org.scalastyle.scalariform.MethodNamesChecker">
   <parameters>
-   <parameter name="regex"><![CDATA[^([a-z][A-Za-z0-9]{1,64})|(`[a-z][A-Za-z0-9]*`)|(`?[+-/*=<>?!@%^&$]{1,3}`?)
-   ]]></parameter>
+   <parameter name="regex"><![CDATA[^`?([a-z][A-Za-z0-9]{1,64})|([-_+/*=<>?!@%^&$]{1,4})`?]]></parameter>
   </parameters>
  </check>
  <check enabled="true"  level="error"   class="org.scalastyle.scalariform.MultipleStringLiteralsChecker">
