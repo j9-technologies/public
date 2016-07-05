@@ -20,6 +20,7 @@
  <check enabled="true"  level="error"   class="org.scalastyle.file.IndentationChecker">
   <parameters>
    <parameter name="tabSize">2</parameter>
+   <parameter name="methodParamIndentSize">2</parameter>
   </parameters>
  </check>
  <check enabled="true"  level="error"   class="org.scalastyle.file.NewLineAtEofChecker"/>
