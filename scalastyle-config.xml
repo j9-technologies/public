@@ -115,7 +115,7 @@
    <parameter name="regex"><![CDATA[^`?([a-z][A-Za-z0-9]{1,64})|([-_+/*=<>?!@%^&$]{1,4})`?]]></parameter>
   </parameters>
  </check>
- <check enabled="true"  level="error"   class="org.scalastyle.scalariform.MultipleStringLiteralsChecker">
+ <check enabled="true"  level="warning" class="org.scalastyle.scalariform.MultipleStringLiteralsChecker">
   <parameters>
    <parameter name="allowed">1</parameter>
    <parameter name="ignoreRegex">^(""|"foo(ba[zr])?"|"bar"|"baz")$</parameter>
