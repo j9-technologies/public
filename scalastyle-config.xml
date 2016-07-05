@@ -125,7 +125,7 @@
  <check enabled="true"  level="error"   class="org.scalastyle.scalariform.NoFinalizeChecker"/>
  <check enabled="true"  level="warning" class="org.scalastyle.scalariform.NoWhitespaceBeforeLeftBracketChecker"/>
  <check enabled="true"  level="warning" class="org.scalastyle.scalariform.NoWhitespaceAfterLeftBracketChecker"/>
- <check enabled="true"  level="error"   class="org.scalastyle.scalariform.NotImplementedErrorUsage"/>
+ <check enabled="true"  level="warning" class="org.scalastyle.scalariform.NotImplementedErrorUsage"/>
  <check enabled="true"  level="error"   class="org.scalastyle.scalariform.NullChecker"/>
  <check enabled="true"  level="error"   class="org.scalastyle.scalariform.NumberOfMethodsInTypeChecker">
   <parameters>
