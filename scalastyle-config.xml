@@ -17,7 +17,7 @@
    <parameter name="header"><![CDATA[// Copyright (C) 2016 J9 Technologies, Inc. All Rights Reserved.]]></parameter>
   </parameters>
  </check>
- <check enabled="true"  level="error"   class="org.scalastyle.file.IndentationChecker">
+ <check enabled="true"  level="warning" class="org.scalastyle.file.IndentationChecker">
   <parameters>
    <parameter name="tabSize">2</parameter>
    <parameter name="methodParamIndentSize">2</parameter>
