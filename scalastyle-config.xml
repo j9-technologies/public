@@ -160,7 +160,7 @@
  <check enabled="true"  level="error"   class="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker"/>
  <check enabled="true"  level="error"   class="org.scalastyle.scalariform.RedundantIfChecker"/>
  <check enabled="true"  level="error"   class="org.scalastyle.scalariform.ReturnChecker"/>
- <check enabled="true"  level="warning" class="org.scalastyle.scalariform.ScalaDocChecker">
+ <check enabled="false" level="warning" class="org.scalastyle.scalariform.ScalaDocChecker">
   <parameters>
    <parameter name="ignoreRegex">(.*Spec$)|(.*SpecIT$)</parameter>
   </parameters>
