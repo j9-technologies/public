@@ -152,7 +152,7 @@
  </check>
  <check enabled="true"  level="error"   class="org.scalastyle.scalariform.ParameterNumberChecker">
   <parameters>
-   <parameter name="maxParameters"><![CDATA[8]]></parameter>
+   <parameter name="maxParameters"><![CDATA[12]]></parameter>
   </parameters>
  </check>
  <check enabled="false" level="warning" class="org.scalastyle.scalariform.PatternMatchAlignChecker"/>
