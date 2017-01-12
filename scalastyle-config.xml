@@ -12,9 +12,9 @@
   </parameters>
  </check>
  <check enabled="true"  level="error"   class="org.scalastyle.file.FileTabChecker"/>
- <check enabled="true"  level="error"   class="org.scalastyle.file.HeaderMatchesChecker">
+ <check enabled="true"  level="warning"   class="org.scalastyle.file.HeaderMatchesChecker">
   <parameters>
-   <parameter name="header"><![CDATA[// Copyright (C) 2016 J9 Technologies, Inc. All Rights Reserved.]]></parameter>
+   <parameter name="header"><![CDATA[// Copyright (C) 2016-2017 J9 Technologies, Inc. All Rights Reserved.]]></parameter>
   </parameters>
  </check>
  <check enabled="true"  level="warning" class="org.scalastyle.file.IndentationChecker">
@@ -23,7 +23,7 @@
    <parameter name="methodParamIndentSize">0</parameter>
   </parameters>
  </check>
- <check enabled="true"  level="error"   class="org.scalastyle.file.NewLineAtEofChecker"/>
+ <check enabled="true"  level="warning"   class="org.scalastyle.file.NewLineAtEofChecker"/>
  <check enabled="false" level="warning" class="org.scalastyle.file.NoNewLineAtEofChecker"/>
  <check enabled="true"  level="error"   class="org.scalastyle.file.RegexChecker">
   <parameters>
@@ -43,7 +43,7 @@
   </parameters>
  </check>
  <check enabled="true"  level="error"   class="org.scalastyle.scalariform.CovariantEqualsChecker"/>
- <check enabled="true"  level="error"   class="org.scalastyle.scalariform.CyclomaticComplexityChecker">
+ <check enabled="true"  level="warning"   class="org.scalastyle.scalariform.CyclomaticComplexityChecker">
   <parameters>
    <parameter name="maximum"><![CDATA[25]]></parameter>
   </parameters>
@@ -59,7 +59,7 @@
    <parameter name="tokens">COMMA, SEMICOLON, RPAREN</parameter>
   </parameters>
  </check>
- <check enabled="true"  level="error"   class="org.scalastyle.scalariform.EmptyClassChecker"/>
+ <check enabled="true"  level="warning"   class="org.scalastyle.scalariform.EmptyClassChecker"/>
  <check enabled="true"  level="error"   class="org.scalastyle.scalariform.EnsureSingleSpaceAfterTokenChecker">
   <parameters>
    <parameter name="tokens">COLON, IF, WHILE</parameter>
@@ -91,12 +91,10 @@
  <check enabled="false" level="error"   class="org.scalastyle.scalariform.ImportGroupingChecker"/>
  <check enabled="true"  level="error"   class="org.scalastyle.scalariform.ImportOrderChecker">
   <parameters>
-   <parameter name="groups">java,scala,j9,com,org,others</parameter>
+   <parameter name="groups">java,scala,j9,others</parameter>
    <parameter name="group.java">javax?\..+</parameter>
    <parameter name="group.scala">scala\..+</parameter>
    <parameter name="group.scala">com.j9tech\..+</parameter>
-   <parameter name="group.scala">com\..+</parameter>
-   <parameter name="group.scala">org\..+</parameter>
    <parameter name="group.others">.+</parameter>
   </parameters>
  </check>
@@ -106,9 +104,9 @@
    <parameter name="ignore"><![CDATA[-1,0,1,2,3,4,8]]></parameter>
   </parameters>
  </check>
- <check enabled="true"  level="error"   class="org.scalastyle.scalariform.MethodLengthChecker">
+ <check enabled="true"  level="warning"   class="org.scalastyle.scalariform.MethodLengthChecker">
   <parameters>
-   <parameter name="maxLength"><![CDATA[64]]></parameter>
+   <parameter name="maxLength"><![CDATA[50]]></parameter>
   </parameters>
  </check>
  <check enabled="true"  level="error"   class="org.scalastyle.scalariform.MethodNamesChecker">
@@ -128,14 +126,14 @@
  <check enabled="true"  level="warning" class="org.scalastyle.scalariform.NoWhitespaceAfterLeftBracketChecker"/>
  <check enabled="true"  level="warning" class="org.scalastyle.scalariform.NotImplementedErrorUsage"/>
  <check enabled="true"  level="error"   class="org.scalastyle.scalariform.NullChecker"/>
- <check enabled="true"  level="error"   class="org.scalastyle.scalariform.NumberOfMethodsInTypeChecker">
+ <check enabled="true"  level="warning"   class="org.scalastyle.scalariform.NumberOfMethodsInTypeChecker">
   <parameters>
    <parameter name="maxMethods"><![CDATA[64]]></parameter>
   </parameters>
  </check>
  <check enabled="true"  level="warning" class="org.scalastyle.scalariform.NoCloneChecker"/>
  <check enabled="true"  level="warning" class="org.scalastyle.scalariform.NoFinalizeChecker"/>
- <check enabled="true"  level="error"   class="org.scalastyle.scalariform.NumberOfTypesChecker">
+ <check enabled="true"  level="warning"   class="org.scalastyle.scalariform.NumberOfTypesChecker">
   <parameters>
    <parameter name="maxTypes"><![CDATA[64]]></parameter>
   </parameters>
@@ -150,9 +148,9 @@
    <parameter name="regex"><![CDATA[^[a-z]{2,16}$]]></parameter>
   </parameters>
  </check>
- <check enabled="true"  level="error"   class="org.scalastyle.scalariform.ParameterNumberChecker">
+ <check enabled="true"  level="warning"   class="org.scalastyle.scalariform.ParameterNumberChecker">
   <parameters>
-   <parameter name="maxParameters"><![CDATA[12]]></parameter>
+   <parameter name="maxParameters"><![CDATA[6]]></parameter>
   </parameters>
  </check>
  <check enabled="false" level="warning" class="org.scalastyle.scalariform.PatternMatchAlignChecker"/>
@@ -185,6 +183,6 @@
  <check enabled="true"  level="warning" class="org.scalastyle.scalariform.UppercaseLChecker"/>
  <check enabled="true"  level="error"   class="org.scalastyle.scalariform.VarFieldChecker"/>
  <check enabled="true"  level="error"   class="org.scalastyle.scalariform.VarLocalChecker"/>
- <check enabled="true"  level="error"   class="org.scalastyle.scalariform.WhileChecker"/>
+ <check enabled="true"  level="warning"   class="org.scalastyle.scalariform.WhileChecker"/>
  <check enabled="true"  level="error"   class="org.scalastyle.scalariform.XmlLiteralChecker"/>
 </scalastyle>
