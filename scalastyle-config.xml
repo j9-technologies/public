@@ -101,7 +101,7 @@
  <check enabled="true"  level="error"   class="org.scalastyle.scalariform.LowercasePatternMatchChecker"/>
  <check enabled="true"  level="error"   class="org.scalastyle.scalariform.MagicNumberChecker">
   <parameters>
-   <parameter name="ignore"><![CDATA[-1,0,1,2,3,4,8]]></parameter>
+   <parameter name="ignore"><![CDATA[-1,0,1,2,3,4,5,8,10,16,64,100]]></parameter>
   </parameters>
  </check>
  <check enabled="true"  level="warning"   class="org.scalastyle.scalariform.MethodLengthChecker">
@@ -150,7 +150,7 @@
  </check>
  <check enabled="true"  level="warning"   class="org.scalastyle.scalariform.ParameterNumberChecker">
   <parameters>
-   <parameter name="maxParameters"><![CDATA[6]]></parameter>
+   <parameter name="maxParameters"><![CDATA[22]]></parameter>
   </parameters>
  </check>
  <check enabled="false" level="warning" class="org.scalastyle.scalariform.PatternMatchAlignChecker"/>
