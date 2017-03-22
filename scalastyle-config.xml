@@ -14,7 +14,7 @@
  <check enabled="true"  level="error"   class="org.scalastyle.file.FileTabChecker"/>
  <check enabled="true"  level="warning"   class="org.scalastyle.file.HeaderMatchesChecker">
   <parameters>
-   <parameter name="header"><![CDATA[// Copyright (C) 2016-2017 J9 Technologies, Inc. All Rights Reserved.]]></parameter>
+   <parameter name="header"><![CDATA[// Copyright (C) [-0-9]+ J9 Technologies, Inc. All Rights Reserved.]]></parameter>
   </parameters>
  </check>
  <check enabled="true"  level="warning" class="org.scalastyle.file.IndentationChecker">
