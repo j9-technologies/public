@@ -17,7 +17,7 @@
    <parameter name="header">// Copyright \(C\) (?:20\d{2}-)?20\d{2} J9 Technologies, Inc. All Rights Reserved.</parameter>
   </parameters>
  </check>
- <check enabled="true"  level="warning" class="org.scalastyle.file.IndentationChecker">
+ <check enabled="false"  level="warning" class="org.scalastyle.file.IndentationChecker">
   <parameters>
    <parameter name="tabSize">2</parameter>
    <parameter name="methodParamIndentSize">0</parameter>
