@@ -14,7 +14,7 @@
  <check enabled="true"  level="error"   class="org.scalastyle.file.FileTabChecker"/>
  <check enabled="true"  level="warning"   class="org.scalastyle.file.HeaderMatchesChecker">
   <parameters>
-   <parameter name="header">// Copyright \(C\) (?:20\d{2}-)?20\d{2} J9 Technologies, Inc. All Rights Reserved.</parameter>
+   <parameter name="header">// Copyright (C) 2016-2017 J9 Technologies, Inc. All Rights Reserved.</parameter>
   </parameters>
  </check>
  <check enabled="false"  level="warning" class="org.scalastyle.file.IndentationChecker">
