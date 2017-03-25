@@ -56,13 +56,13 @@
  </check>
  <check enabled="true"  level="warning" class="org.scalastyle.scalariform.DisallowSpaceBeforeTokenChecker">
   <parameters>
-   <parameter name="tokens">COMMA, SEMICOLON, COLON, LPAREN, RPAREN</parameter>
+   <parameter name="tokens">COMMA, SEMICOLON, COLON</parameter>
   </parameters>
  </check>
  <check enabled="true"  level="warning"   class="org.scalastyle.scalariform.EmptyClassChecker"/>
  <check enabled="true"  level="error"   class="org.scalastyle.scalariform.EnsureSingleSpaceAfterTokenChecker">
   <parameters>
-   <parameter name="tokens">COLON, IF, WHILE</parameter>
+   <parameter name="tokens">COLON, SEMICOLON, COLON, IF, WHILE</parameter>
   </parameters>
  </check>
  <check enabled="false"  level="warning" class="org.scalastyle.scalariform.EnsureSingleSpaceBeforeTokenChecker">
