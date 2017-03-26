@@ -28,6 +28,7 @@
  <check enabled="true"  level="warning"   class="org.scalastyle.file.RegexChecker">
   <parameters>
    <parameter name="regex"><![CDATA[println]]></parameter>
+   <parameter name="regex"><![CDATA["${[^}]+}"]]></parameter>
   </parameters>
  </check>
  <check enabled="true"  level="warning" class="org.scalastyle.file.WhitespaceEndOfLineChecker"/>
