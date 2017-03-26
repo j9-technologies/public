@@ -116,8 +116,8 @@
  </check>
  <check enabled="true"  level="warning" class="org.scalastyle.scalariform.MultipleStringLiteralsChecker">
   <parameters>
-   <parameter name="allowed">1</parameter>
-   <parameter name="ignoreRegex">^(""|"foo(ba[zr])?"|"bar"|"baz")$</parameter>
+   <parameter name="allowed">2</parameter>
+   <parameter name="ignoreRegex"><![CDATA[^(""|" "|"foo(ba[zr])?"|"bar"|"baz"]]>)$</parameter>
   </parameters>
  </check>
  <check enabled="true"  level="error"   class="org.scalastyle.scalariform.NoCloneChecker"/>
