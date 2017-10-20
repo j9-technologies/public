@@ -180,6 +180,12 @@
   </parameters>
   <customMessage>Avoid casting.</customMessage>
  </check>
+  <check enabled="true"  level="warning" class="org.scalastyle.scalariform.TokenChecker">
+  <parameters>
+   <parameter name="regex">^Await$</parameter>
+  </parameters>
+  <customMessage>Avoid Await.</customMessage>
+ </check>
  <check enabled="false" level="warning" class="org.scalastyle.scalariform.UnderscoreImportChecker"/>
  <check enabled="true"  level="warning" class="org.scalastyle.scalariform.UppercaseLChecker"/>
  <check enabled="true"  level="error"   class="org.scalastyle.scalariform.VarFieldChecker"/>
