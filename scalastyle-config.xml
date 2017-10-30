@@ -31,7 +31,7 @@
    <parameter name="regex"><![CDATA["\$\{[^}]+\}"]]></parameter>
   </parameters>
  </check>
- <check enabled="true"  level="warning" class="org.scalastyle.file.WhitespaceEndOfLineChecker"/>
+ <check enabled="false"  level="warning" class="org.scalastyle.file.WhitespaceEndOfLineChecker"/>
  <check enabled="false" level="warning" class="org.scalastyle.scalariform.BlockImportChecker"/>
  <check enabled="true"  level="warning" class="org.scalastyle.scalariform.ClassNamesChecker">
   <parameters>
